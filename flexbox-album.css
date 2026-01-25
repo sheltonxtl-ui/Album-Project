@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #f5f5f5;
+}
+
+/* Header */
+header {
+    background-color: #343a40;
+    padding: 15px 20px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Hero section */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f5f5f5;
+}
+
+.hero h1 {
+    margin-bottom: 20px;
+}
+
+.hero p {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #666;
+}
+
+/* Card Grid (Flexbox) */
+.card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Card */
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    width: 350px;
+}
+
+/* Card image */
+.card img {
+    width: 100%;
+    height: 225px;
+    object-fit: cover;
+    display: block;
+}
+
+/* Card content */
+.card-body {
+    padding: 15px;
+}
+
+.card-body p {
+    margin-bottom: 10px;
+}
+
+/* Time text */
+.card-time {
+    font-size: 14px;
+    color: #999;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 40px 20px;
+    border-top: 1px solid #ddd;
+    background-color: #f5f5f5;
+}
+
+footer a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #007bff;
+}
