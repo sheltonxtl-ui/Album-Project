@@ -4,106 +4,150 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexbox Album</title>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="index.css">
 </head>
-
-<!-- Flexbox practice section
 <body>
-    <div class="flex-container">
-        <div class="flex-item">1</div>
-        <div class="flex-item">2</div>
-        <div class="flex-item">3</div>
-        <div class="flex-item">4</div>
-    </div>
--->
-<header>
-    <div class="container">
-        <a href="#">Album</a>
-    </div>
-</header>
 
-<section class="hero">
-    <div class="container">
-        <h1>Mathematic Album</h1>
-        <p>
-            Album is a collection of certain types of below-it objects. In this case, this will be a collection of mathematical formulas.
-        </p>
-    </div>
-</section>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <a href="#">Album</a>
+        </div>
+    </header>
 
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Mathematic Album</h1>
+            <p>
+                Album is a collection of certain types of below-it objects.
+                In this case, this will be a collection of mathematical formulas.
+            </p>
+        </div>
+    </section>
 
-<main class="card-grid">
-    <div class="card">
-        <div class="card-body">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Pythagorean.svg/250px-Pythagorean.svg.png" alt="Pythagorean Theorem">
-            <p>This is an image featuring an example of pythagorean theorem, or a^2+b^2=c^2 in a right triangle.</p>
-            <span class="card-time">9 mins</span>
-        </div>
-    </div>
-    <div class="card">
-        <div class="card-body">
-            <img src="https://muthu.co/wp-content/uploads/2019/10/D5uflg0XoAAOmpq.jpeg" alt="Euler's Identity">
-            <p>Being voted as the cleanest mathematical identity, this features the Euler's identity.</p>
-            <span class="card-time">9 mins</span>
-        </div>
-    </div>
-    <div class="card">
-        <div class="card-body">
-            <img src="https://curvebreakerstestprep.com/wp-content/uploads/2021/04/quadratic-formula.png" alt="Quadratic Formula">
-            <p>As a familiar formula frequently appearing in schools' Algebra I cources, this is a general formula for caluclating roots of a quadratic equation.</p>
-            <span class="card-time">9 mins</span>
-        </div>
-    </div>
-    <div class="card">
-        <div class="card-body">
-            <img src="https://i.ytimg.com/vi/Khz7fZOLV_Y/maxresdefault.jpg" alt="Derivative Defintion">
-            <p>The formula described one of the most fundamental concepts in Calculus, derivative.</p>
-            <span class="card-time">9 mins</span>
-        </div>
-    </div>
-    <div class="card">
-        <div class="card-body">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRH3kVkuQ39qWEaIJ7pCSgxdWefohtBcTH7Q&s" alt="Vieta's Formula">
-            <p>The Vieta's formula is the way of using coefficients to find out relationships between roots of a polynomial.</p>
-            <span class="card-time">9 mins</span>
-        </div>
-    </div>
-    <div class="card">
-        <div class="card-body">
-            <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240607181448/Law-of-Cosines-copy.webp" alt="Law of Cosines">
-            <p>The law of cosines, as individuals might notice, have a similar format as the Pythagorean theorem. In fact, we know cos 90 degrees=0.</p>
-            <span class="card-time">9 mins</span>
-        </div>
-    </div>
-    <div class="card">
-        <div class="card-body">
-            <img src="https://media.geeksforgeeks.org/wp-content/uploads/20250722154152909889/euler_s_theorem.webp" alt="Euler's Theorem">
-            <p>As a formula that would be used in number theory, the Euler's theorem is a more general form of Fermat's Little Theorem.</p>
-            <span class="card-time">9 mins</span>
-        </div>
-    </div>
-    <div class="card">
-        <div class="card-body">
-            <img src="https://www.onlinemathlearning.com/image-files/addition-formulas.png" alt="Trigonometric Addition Formulas">
-            <p>As another commonly used formula in Trigonometry, this allows individuals to break down angles into familiar angles that could be worked with.</p>
-            <span class="card-time">9 mins</span>
-        </div>
-    </div>
-    <div class="card">
-        <div class="card-body">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8gI7WWEzzNFdXBjFlI9J25Vd_dKuRibXooQ&s" alt="Euler's Graph Theory">
-            <p>This is a theory describing the relationship between vertices, edges, and faces.</p>
-            <span class="card-time">9 mins</span>
-        </div>
-    </div>
-</main>
+    <!-- Main Content -->
+    <main class="container">
+        <div class="card-grid">
 
-<!-- Footer -->
-<footer>
-    <a href="#">Back to top</a>
-    <p>© 2026 Album Example</p>
-</footer>
+            <!-- Card 1 -->
+            <div class="card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Pythagorean.svg/250px-Pythagorean.svg.png" alt="Pythagorean Theorem">
+                <div class="card-body">
+                    <p>
+                        This is an image featuring an example of the Pythagorean theorem,
+                        or a² + b² = c² in a right triangle.
+                    </p>
+                    <span class="card-time">9 mins</span>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+                <img src="https://muthu.co/wp-content/uploads/2019/10/D5uflg0XoAAOmpq.jpeg" alt="Euler's Identity">
+                <div class="card-body">
+                    <p>
+                        Being voted as the cleanest mathematical identity,
+                        this features Euler's identity.
+                    </p>
+                    <span class="card-time">9 mins</span>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+                <img src="https://curvebreakerstestprep.com/wp-content/uploads/2021/04/quadratic-formula.png" alt="Quadratic Formula">
+                <div class="card-body">
+                    <p>
+                        A familiar formula frequently appearing in Algebra I courses,
+                        used to calculate roots of quadratic equations.
+                    </p>
+                    <span class="card-time">9 mins</span>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="card">
+                <img src="https://i.ytimg.com/vi/Khz7fZOLV_Y/maxresdefault.jpg" alt="Derivative Definition">
+                <div class="card-body">
+                    <p>
+                        This formula describes one of the most fundamental concepts
+                        in calculus: the derivative.
+                    </p>
+                    <span class="card-time">9 mins</span>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRH3kVkuQ39qWEaIJ7pCSgxdWefohtBcTH7Q&s" alt="Vieta's Formula">
+                <div class="card-body">
+                    <p>
+                        Vieta’s formulas describe relationships between coefficients
+                        and roots of a polynomial.
+                    </p>
+                    <span class="card-time">9 mins</span>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="card">
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240607181448/Law-of-Cosines-copy.webp" alt="Law of Cosines">
+                <div class="card-body">
+                    <p>
+                        The law of cosines generalizes the Pythagorean theorem
+                        to non-right triangles.
+                    </p>
+                    <span class="card-time">9 mins</span>
+                </div>
+            </div>
+
+            <!-- Card 7 -->
+            <div class="card">
+                <img src="https://media.geeksforgeeks.org/wp-content/uploads/20250722154152909889/euler_s_theorem.webp" alt="Euler's Theorem">
+                <div class="card-body">
+                    <p>
+                        Euler’s theorem is a fundamental result in number theory
+                        extending Fermat’s Little Theorem.
+                    </p>
+                    <span class="card-time">9 mins</span>
+                </div>
+            </div>
+
+            <!-- Card 8 -->
+            <div class="card">
+                <img src="https://www.onlinemathlearning.com/image-files/addition-formulas.png" alt="Trigonometric Addition Formulas">
+                <div class="card-body">
+                    <p>
+                        Trigonometric addition formulas allow complex angles
+                        to be expressed using simpler ones.
+                    </p>
+                    <span class="card-time">9 mins</span>
+                </div>
+            </div>
+
+            <!-- Card 9 -->
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8gI7WWEzzNFdXBjFlI9J25Vd_dKuRibXooQ&s" alt="Euler's Graph Theory">
+                <div class="card-body">
+                    <p>
+                        Euler’s graph theory describes relationships between
+                        vertices, edges, and faces.
+                    </p>
+                    <span class="card-time">9 mins</span>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <a href="#">Back to top</a>
+            <p>© 2026 Album Example</p>
+        </div>
+    </footer>
 
 </body>
-
 </html>
