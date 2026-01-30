@@ -48,13 +48,13 @@ header a {
 
 /* Card Grid (Flexbox) */
 .card-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 40px 0;
     max-width: 1200px;
     margin: 0 auto;
+    justify-items: center;
 }
 
 /* Card */
@@ -111,6 +111,10 @@ footer a {
 
 /* Overrides above rule on small screens */
 @media (max-width: 768px) {
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
+    
     .hero {
         padding: 40px 15px;
     }
